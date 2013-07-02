@@ -1,0 +1,38 @@
+---
+abstract: 'DSL Modifier feature for Nephia'
+author:
+  - 'ytnobody <ytnobody@gmail.com>'
+build_requires:
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Nephia-DLSModifier
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Nephia::DLSModifier:
+    file: lib/Nephia/DLSModifier.pm
+    version: 0.01
+requires:
+  Nephia: 0.22
+  perl: 5.008005
+resources:
+  bugtracker: https://github.com/ytnobody/Nephia-DSLModifier/issues
+  homepage: https://github.com/ytnobody/Nephia-DSLModifier
+  repository: git://github.com/ytnobody/Nephia-DSLModifier.git
+version: 0.01
